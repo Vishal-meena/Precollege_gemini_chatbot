@@ -88,7 +88,6 @@ narwhals==1.14.0
 numpy==1.26.4
 oauthlib==3.2.2
 onnxruntime==1.19.2
-openai==1.54.5
 opentelemetry-api==1.28.2
 opentelemetry-exporter-otlp-proto-common==1.28.2
 opentelemetry-exporter-otlp-proto-grpc==1.28.2
