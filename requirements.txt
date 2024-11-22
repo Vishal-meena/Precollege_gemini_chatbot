@@ -33,7 +33,6 @@ filelock==3.16.1
 flatbuffers==24.3.25
 frozenlist==1.5.0
 fsspec==2024.10.0
-genai==2.1.0
 gitdb==4.0.11
 GitPython==3.1.43
 google-ai-generativelanguage==0.6.10
