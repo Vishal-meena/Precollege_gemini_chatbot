@@ -134,9 +134,6 @@ def get_response(user_query):
     if user_query.lower().strip() in greetings:
         return "Hello! How can I assist you with your college search today?"
 
-    # Ensure the vector store is available in the session state
-    if "vector_store" not in st.session_state:
-        return "Vector store is not initialized. Please upload and preprocess a document."
 
     # Create the history-aware retriever chain
     retriever_chain = create_contextual_chain(st.session_state.vector_store)
