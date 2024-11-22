@@ -14,6 +14,8 @@ from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 from langchain_core.messages import HumanMessage, SystemMessage
 from langchain.chains.combine_documents import create_stuff_documents_chain 
 
+import pysqlite3
+sys.modules['sqlite3'] = pysqlite3
 
 # Set up logging
 logging.basicConfig(level=logging.INFO)
